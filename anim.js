@@ -4,33 +4,33 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Ella sabía, que el sabia", time: 1 },
+  { text: "que algún día pasaría", time: 2.5 },
+  { text: "que el vendría a buscarla", time: 4 },
+  { text: "con sus flores amarillas", time: 6 },
+  { text: "No te apures, ", time: 8 },
+  { text: "no detengas", time: 9},
+  { text: "el instante del encuentro", time: 11 },
+  { text: "Está dicho, que es un hecho, ", time: 12 },
+  { text: "no la pierdas, no hay derecho", time: 14.5 },
+  { text: "No te olvídes", time:16.5},
+  { text: "que la vida", time: 17.5 },
+  { text: "Casi nunca está dormida", time: 19.5 },
+  { text: "I only want to live in clouds", time: 183 },
+  { text: "Where I'm now? I don't know why", time: 191 },
+  { text: "Nice butterflies in my hands", time: 197 },
+  { text: "Too much light for twilight", time: 1104 },
+  { text: "In the mood for the flowers love", time: 1108 },
+  { text: "At the time", time: 1144 },
+  { text: "The whisper of birds", time: 1148 },
+  { text: "Lonely before the sun cried", time: 1153 },
+  { text: "Fell from the sky", time: 1158 },
+  { text: "Like water drops", time: 1164 },
+  { text: "Where I'm now? I don't know why", time: 1169 },
+  { text: "Nice butterflies in my hands", time: 1176 },
+  { text: "Too much light for twilight", time: 1183 },
+  { text: "In the mood for the flowers", time: 1188 },
+  { text: "Love.", time: 1410 },
 ];
 
 // Animar las letras
@@ -55,7 +55,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 1000);
+setInterval(updateLyrics, 500);
 
 //funcion titulo
 // Función para ocultar el título después de 216 segundos
